@@ -1,0 +1,18 @@
+#!/bin/bash
+apt-get update
+apt install net-tools -y
+echo
+echo $ net-tools successfully installed
+echo
+apt-get install ssh -y
+apt-get install wget -y
+echo $ ssh installed succesfully
+apt install default-jdk -y
+echo $ java installed successfully
+echo
+apt-get install vim -y
+echo
+chmod 000 /media/
+chmod 600 /etc/hosts
+ls -lt /media
+ls -lt /etc/hosts
